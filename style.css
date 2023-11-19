@@ -1,25 +1,132 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 32px;
+    color: #E82F60;
+    padding-bottom: 30px;
+    margin: 0;
+    
+}
+
+h2{
+    font-size: 45px;
+    color: #E82F60;
+    
+}
+
+h3{
+    color: #E82F60;
+    padding-top: 60px;
+    font-size: 30px;
+   
+
+}
+
+
+p{
+    color: dimgray;
+    padding-bottom: 60px;
+    font-size: 18px;
+    text-align: justify;
+    
 }
 
 .name-highlight{
     color: orange;
+    font-size: 60px;
+    text-shadow: 10px;
+    
+    
 }
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(243, 9, 107),orange  );
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
 
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-right: 3%;
+    
 }
 
 .half-width img{
     width: 100%;
-    padding-top: 10%;
-    
+    padding-right: 100px;
+    padding-top: 40px;
+    height: 100%;
+    box-shadow: 5px;
 
+}
+
+.top-banner{
+    background-image: url("images/web-top-banner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 710px; 
+    margin-bottom: 0px; 
+    
+  
+}
+
+
+.second-section{
+    background-color: whitesmoke;
+    background-size: 100%;
+    padding-top: 50px;
+    height: 800px;
+    margin-top: 0px;
+   
+
+}
+
+.top-banner-text{
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-bottom: 30PX;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    
+}
+
+.about{
+    padding-top: 30px;
+}
+#short-bio{
+    padding-bottom: 60px;
+}
+
+.linear-bar{
+    background-image:linear-gradient(45deg, rgb(243, 9, 107),orange  ); 
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    padding-top: 7px;
+    padding-left: 370px;
+    
+}
+
+.header{
+    text-decoration: none;
+    float:left;
+    padding: 10px 30px;
+    font-size: 24px;
+    font-weight: 500;
+    color: whitesmoke;
+  
+}
+.main-menu{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    
 }
